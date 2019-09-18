@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <title>About Myself</title>
+    <style>
+        body{
+            background: url(pic2.jpg) no-repeat center center fixed;
+            background-repeat:no-repeat;
+            background-size: cover;
+            height: 100%;
+        }  
+    </style>
+</head>
+<body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>                        
+                    </button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">Index</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                      <li class="active"><a href="calculation.html">calculation</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    <main>
+    
+          <h1><i>"If you want to find speed of a vehicle, please go ahead and
+             enter time and distance travelled"</i></h1>
+          <div style="text-align: center;">
+          <label for="t">Enter the time taken to travel :</label>
+          <input type="text" id = "t" placeholder="time taken"/>
+          <br><br>
+          <label for="d">Enter the distance travelled by the vehicle :</label>
+          <input type="text" id = "d" placeholder="distance travelled"/>
+          <br><br>
+          <button onClick="Palindrome()">Submit</button>
+          <br><br>
+          <textarea name="number" cols="20" rows="5" placeholder="click on submit to see the answer"></textarea>
+        </div>
+    </main>
+    <footer>
+            <nav>
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="contact.html">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+                      <li class="page-item"><a class="page-link" href="contact.html">2</a></li>
+                      <li class="page-item active"><a class="page-link active" href="calculation.html">3</a></li>
+                      <li class="page-item active"><a class="page-link disabled" href="calculation.html">Next</a></li>
+                    </ul>
+                </nav>
+    </footer>
+</body>
+</html>
+

@@ -75,13 +75,14 @@ th{
     .item5 { grid-area: footer; }
     .item6 { grid-area: profile;}
     .item7 { grid-area: vid;}
+    .item8 { grid-area:copywrite;}
 
    .grid-container {
     display: grid;
     grid-template-areas:
     'profile profile profile header header vid vid vid'
     'menu menu menu main main main right right'
-    'footer footer footer footer footer footer footer footer ';
+    'copywrite copywrite copywrite footer footer footer footer footer ';
     grid-gap: 10px;
     padding: 10px;
 }
